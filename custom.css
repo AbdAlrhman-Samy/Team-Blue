@@ -1,0 +1,46 @@
+body {
+    background: #eeeeee;
+}
+ a{
+     cursor: pointer;
+ }
+.skewed {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1b3b5a80;
+    z-index: -1;
+    transform: skewY(6deg);
+    transform-origin: top right;
+}
+
+
+
+.caption-3 figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-25%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.border-md {
+    border-width: 2px !important;
+}
+
+.separator {
+    border-bottom: 1px dashed #aaa;
+}
+
+.text-small {
+    font-size: 0.85rem;
+}
+
+.aboutHead{
+    height: 85vh;
+}
