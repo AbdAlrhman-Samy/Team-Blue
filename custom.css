@@ -1,9 +1,13 @@
 body {
-    background: #eeeeee;
+    background: url("waveBottom.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
- a{
-     cursor: pointer;
- }
+
+a {
+    cursor: pointer;
+}
+
 .skewed {
     position: absolute;
     top: 0;
@@ -18,8 +22,6 @@ body {
     transform-origin: top right;
 }
 
-
-
 .caption-3 figcaption {
     position: absolute;
     bottom: 0;
@@ -27,7 +29,6 @@ body {
     transform: translateY(-25%);
     background-color: rgba(255, 255, 255, 0.8);
 }
-
 
 .border-md {
     border-width: 2px !important;
@@ -41,18 +42,21 @@ body {
     font-size: 0.85rem;
 }
 
-.aboutHead{
+.aboutHead {
     height: 85vh;
 }
 
-
-
 #myHeader {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
-    background-image:
-    linear-gradient(0deg, rgba(0,0,0,0.8354692218684349) 20%, rgba(255,255,255,0.4489146000196954) 100%),
-    url('eiw.jpg');
-    background-position: center;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8354692218684349) 20%, rgba(255, 255, 255, 0.4489146000196954) 100%), url('eiw.jpg');
     background-size: cover;
-    color: white;}
+    background-position: center;
+    color: white;
+}
+
+.featureSec {
+    background: url('waveTop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+}
