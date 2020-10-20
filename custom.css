@@ -44,3 +44,15 @@ body {
 .aboutHead{
     height: 85vh;
 }
+
+
+
+#myHeader {
+    height: 75vh;
+    width: 100%;
+    background-image:
+    linear-gradient(0deg, rgba(0,0,0,0.8354692218684349) 20%, rgba(255,255,255,0.4489146000196954) 100%),
+    url('eiw.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;}
