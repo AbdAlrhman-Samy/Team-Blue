@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 body {
     background: url("../images/waveBottom.svg");
     background-color: rgb(238, 238, 238);
@@ -21,20 +20,6 @@ body {
     transform-origin: top right;
 }
 
-.curved {
-    position: absolute;
-    background: #3c99f57e;
-    height: 50vh;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-bottom-left-radius: 50% 5%;
-    border-bottom-right-radius: 50% 20%;
-    z-index: -1;
-  }
 
 .caption-3 figcaption {
     position: absolute;
