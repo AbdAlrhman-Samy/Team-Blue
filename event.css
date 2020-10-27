@@ -31,15 +31,8 @@
     transform: scale(0.9, 0.9);
 }
 
-.active {
-    background-color: rgb(8, 83, 168) !important;
-    border-radius: 5px !important;
-}
 
-.active:hover {
-    background-color: #9fa1af;
-    color: rgb(7, 67, 134);
-}
+
 
 @media (min-width:765px) {
     .event .bigdiv ul {

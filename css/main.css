@@ -29,7 +29,7 @@
 
 .curved {
     position: absolute;
-    background: #478ed47e;
+    background: #1b003a31;
     height: 50vh;
     top: 0;
     bottom: 0;
@@ -38,7 +38,7 @@
     width: 100%;
     height: 100%;
     border-bottom-left-radius: 50% 0%;
-    border-bottom-right-radius: 50% 33%;
+    border-bottom-right-radius: 40% 35%;
     z-index: -1;
   }
 
@@ -129,7 +129,7 @@ hr{
 }
 .tourism .up .footer{
 	position: absolute;
-	background-color: rgb(5, 93, 156,.5);
+	background-color: rgba(22, 2, 207, 0.445);
 	width:99%;
 	text-align: center;
 	height: 300px;
