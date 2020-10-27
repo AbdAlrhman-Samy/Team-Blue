@@ -70,7 +70,7 @@ body {
 #myHeader {
   height: 80vh;
   width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8354692218684349) 20%, rgba(255, 255, 255, 0.4489146000196954) 100%), url('../images/home.jpg');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8354692218684349) 20%, rgba(255, 255, 255, 0.4489146000196954) 100%), url('../images/home-min.jpg');
   background-size: cover;
   background-position: center;
   color: white;
