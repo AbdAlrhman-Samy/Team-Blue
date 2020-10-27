@@ -29,7 +29,7 @@
 
 .curved {
     position: absolute;
-    background: #3c99f57e;
+    background: #478ed47e;
     height: 50vh;
     top: 0;
     bottom: 0;
@@ -37,8 +37,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-bottom-left-radius: 50% 5%;
-    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 0%;
+    border-bottom-right-radius: 50% 33%;
     z-index: -1;
   }
 
