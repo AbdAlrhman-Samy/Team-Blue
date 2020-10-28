@@ -1,8 +1,5 @@
 body {
-  background: url("../images/waveBottom.svg");
-  background-color: rgb(238, 238, 238);
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background-color: rgb(240, 240, 240);
   font-family: 'Comfortaa', Arial;
 }
 
@@ -361,3 +358,5 @@ body {
       font-size: 20px;
     }
   }}
+
+  
