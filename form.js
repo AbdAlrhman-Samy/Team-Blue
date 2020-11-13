@@ -7,16 +7,14 @@ const subBtn = document.getElementById("sub-btn");
 const all = document.getElementById("all");
 const teaser = document.getElementById("teaser");
 
-
 let today = new Date();
-let recDay = new Date(2020, 10, 12, 15, 0, 0)
+let recDay = new Date(2020, 10, 14, 15, 0, 0);
 
-
-  if (today >= recDay) {
-    teaser.classList.add('d-none')
-    all.classList.remove('d-none')    
-    console.log(today);
-  };
+if (today >= recDay) {
+  subBtn.setAttribute("type", "submit");
+  teaser.classList.add("d-none");
+  all.classList.remove("d-none");
+}
 
 subBtn.hidden = true;
 
@@ -50,4 +48,3 @@ const check = (bruh) => {
       break;
   }
 };
-
