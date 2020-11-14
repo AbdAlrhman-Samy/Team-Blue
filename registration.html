@@ -232,14 +232,14 @@
                             <div class="col-md mb-3">
                                 <label for="sciQ1">Predict The
                                     Output:<br><code> int x=9/5; float y=9.0/5; cout≪x≪endl; cout≪y≪endl;</code></label>
-                                <input name="Scientific-Q1" type="text" id="sciQ1" class="form-control">
+                                <input name="Scientific-Q1" type="text" id="sciQ1" class="form-control" rules="required_if:Committee, Scientific">
                                 <small id="q1Help" class="form-text text-muted">Integer Division Vs Float
                                     Division.</small>
                             </div>
                             <div class="col-md">
                                 <label for="sciQ2">Predict The
                                     Output:<br><code> int x=3; Int y=4; x=y; y=x; cout≪x≪endl; cout≪y≪endl;</code></label>
-                                <input name="Scientific-Q2" type="text" id="sciQ2" class="form-control">
+                                <input name="Scientific-Q2" type="text" id="sciQ2" class="form-control" rules="required_if:Committee, Scientific">
                                 <small id="q2Help" class="form-text text-muted">Can we use this method to
                                     swap?</small>
                             </div>
