@@ -45,8 +45,8 @@ const check = (bruh) => {
       bigTest.classList.add("d-none");
       one.classList.add("d-none");
       two.classList.add("d-none");
-      sciQ1.required = false;
-      sciQ2.required = false;
+      sciQ1.setAttribute("rules", "");
+      sciQ2.setAttribute("rules", "");
       break;
   }
 };
