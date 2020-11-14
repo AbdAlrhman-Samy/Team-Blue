@@ -25,8 +25,8 @@ const check = (bruh) => {
       bigTest.classList.remove("d-none");
       one.classList.remove("d-none");
       two.classList.add("d-none");
-      sciQ1.required = false;
-      sciQ2.required = false;
+      sciQ1.setAttribute("rules", "");
+      sciQ2.setAttribute("rules", "");
       break;
 
     case 1:
@@ -34,6 +34,8 @@ const check = (bruh) => {
       bigTest.classList.remove("d-none");
       one.classList.remove("d-none");
       two.classList.remove("d-none");
+      sciQ1.setAttribute("rules", "required");
+      sciQ2.setAttribute("rules", "required");
       sciQ1.required = true;
       sciQ2.required = true;
       break;
