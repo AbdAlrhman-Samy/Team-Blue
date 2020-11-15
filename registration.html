@@ -228,7 +228,7 @@
 
                     </div>
                     <div class=" d-none comQues" id="sciCommitteeQs">
-                        <div class="row mb-3">
+                        <!-- <div class="row mb-3">
                             <div class="col-md mb-3">
                                 <label for="sciQ1">Predict The
                                     Output:<br><code> int x=9/5; float y=9.0/5; cout≪x≪endl; cout≪y≪endl;</code></label>
@@ -243,6 +243,29 @@
                                 <small id="q2Help" class="form-text text-muted">Can we use this method to
                                     swap?</small>
                             </div>
+                            
+                        </div> -->
+
+                        <div class="row mb-3">
+                            <div class="col-md mb-3">
+                                <label for="sciQ1">Incrementing a constant:<br><code> int  const  p = 5; <br>
+                                    p = 6; <br>
+                                    cout ≪ p;
+                                 </code></label>
+                                <input name="Scientific-Q3" type="text" id="sciQ1" class="form-control" rules="required_if:Committee, Scientific">
+
+                            </div>
+                            <div class="col-md">
+                                <label for="sciQ2">Comparing:<br><code>int x = 3 , y = 4;
+                                    if (x == y)<br>
+                                        cout ≪ "equal" ≪ endl; <br>
+                                    else 
+                                        cout ≪ "not equal" ≪ endl;
+                                </code></label>
+                                <input name="Scientific-Q4" type="text" id="sciQ2" class="form-control" rules="required_if:Committee, Scientific">
+
+                            </div>
+                            
                         </div>
                     </div>
                     <label class="font-weight-bold" for="query"><i class="far fa-question-circle"></i> Do You Have Any
